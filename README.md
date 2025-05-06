@@ -1,6 +1,8 @@
 # saltdocker
 Add docker to saltstack
 
+# https://github.com/vmniemi/Minisaltproject/blob/main/README.md
+
 # Vaiheet
 Tämä edellyttää saltstacking ja  vagrantin asentamista 
 
