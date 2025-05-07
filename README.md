@@ -7,6 +7,8 @@ Add docker to saltstack
 Tämä edellyttää saltstacking ja  vagrantin asentamista 
 
 
+    sudo apt-get install git
+
 
 
     sudo git clone https://github.com/vmniemi/saltdocker.git /srv/salt
