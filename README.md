@@ -44,6 +44,19 @@ Tämä edellyttää saltstacking ja  vagrantin asentamista
 ![fresttest](https://github.com/user-attachments/assets/2dfe979c-9f42-4df3-9428-b9a45b35c1cf)
 
 
+
+    sudo salt '*' pip.install docker
+
+
+     sudo salt '*' state.apply docker.pull_nginx
+
+
+
+
+     
+![freshpull](https://github.com/user-attachments/assets/d0e277d1-5b6d-4cc2-aca3-fa86ce4f3fe4)
+
+
 Lopullinen /srv/salt rakenne pitäisi näyttää tältä: 
 
 
